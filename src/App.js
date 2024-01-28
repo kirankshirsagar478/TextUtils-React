@@ -53,12 +53,13 @@ function App() {
         /user --> component 1
         /user/home --> component 2 */}
           {/* <Route exact path="/about" element={<About/>}> */}
-            <About />
+            {/* <About /> */}
           {/* </Route>
          <Route exact path="/" element={<TextForm showAlert={showAlert} heading="Enter text to analyze" mode={mode} />}> */}
           <TextForm showAlert={showAlert} heading="Enter text to analyze" mode={mode} />
           {/* </Route>
         </Routes> */}
+        <About />
       </div>
       {/* </Router> */}
     </>
