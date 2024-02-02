@@ -56,11 +56,11 @@ export default function TextForm(props) {
             style={{backgroundColor: props.mode==='light'?'white':'gray', color: props.mode==='light'?'black':'white'}}
           ></textarea>
         </div>
-        <button className="btn btn-primary mx-1" onClick={handleUpClick}>Conver to Uppercase</button>
-        <button className="btn btn-primary mx-1" onClick={handleLowClick}>Conver to Lowercase</button>
-        <button className="btn btn-primary mx-1" onClick={handleClear}>Clear Text</button>
-        <button className="btn btn-primary mx-1" onClick={handleCopy}>Copy Text</button>
-        <button className="btn btn-primary mx-1" onClick={handleExtraSpaces}>Remove Extra Spaces</button>
+        <button className="btn btn-primary mx-1 my-4" onClick={handleUpClick}>Conver to Uppercase</button>
+        <button className="btn btn-primary mx-1 my-4" onClick={handleLowClick}>Conver to Lowercase</button>
+        <button className="btn btn-primary mx-1 my-4" onClick={handleClear}>Clear Text</button>
+        <button className="btn btn-primary mx-1 my-4" onClick={handleCopy}>Copy Text</button>
+        <button className="btn btn-primary mx-1 my-4" onClick={handleExtraSpaces}>Remove Extra Spaces</button>
       </div>
       <div className="container my-3" style={{backgroundColor: props.mode==='light'?'white':'gray' , color: props.mode==='light'?'black':'white'}}>
         <h1>Your text summery</h1>
